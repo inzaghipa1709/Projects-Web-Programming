@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#header {
+  display: block;
+  width: 960px;
+  margin: 0 auto;
+}
