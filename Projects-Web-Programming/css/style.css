@@ -1,12 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-size: 13px;
   font-family: Georgia, "Times New Roman", Times, serif;
+  position: relative;
 }
 
-#header {
-  display: block;
-  width: 960px;
+header {
+  width: 100%;
   margin: 0 auto;
+  position: relative;
+}
+
+#header nav {
+  float: right;
+  width: 100%;
+  margin: 0;
+  padding: 20px 0;
+  clear: both;
+}
+
+#header nav a {
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+#header nav ul {
+  padding: 0 20px;
+  background-color: #f0a7a7;
+  border-radius: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header nav ul li {
+  display: inline;
+  margin-right: 25px;
+  list-style: none;
+}
+
+nav a #logo {
+  font-weight: 700;
 }
