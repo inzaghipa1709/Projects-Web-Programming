@@ -2,7 +2,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #ffffff;
 }
 
 body {
@@ -11,6 +10,7 @@ body {
   font-size: 13px;
   font-family: Georgia, "Times New Roman", Times, serif;
   position: relative;
+  background-color: #ffffff;
 }
 
 header {
@@ -20,11 +20,13 @@ header {
 }
 
 #header nav {
-  float: right;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
   margin: 0;
   padding: 20px 0;
   clear: both;
+  background-color: #f0a7a7;
 }
 
 #header nav a {
@@ -34,7 +36,6 @@ header {
 
 #header nav ul {
   padding: 0 20px;
-  background-color: #f0a7a7;
   border-radius: 0px;
   display: flex;
   justify-content: space-between;
