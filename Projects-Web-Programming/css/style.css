@@ -7,7 +7,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-size: 13px;
+  font-size: 16px;
   font-family: Georgia, "Times New Roman", Times, serif;
   position: relative;
   background-color: #ffffff;
@@ -17,6 +17,7 @@ header {
   width: 100%;
   margin: 0 auto;
   position: relative;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #header nav {
@@ -26,12 +27,13 @@ header {
   margin: 0;
   padding: 20px 0;
   clear: both;
-  background-color: #f0a7a7;
+  background-color: #ffffff;
 }
 
 #header nav a {
   font-size: 1rem;
   text-decoration: none;
+  padding-left: 20px;
 }
 
 #header nav ul {
@@ -50,4 +52,71 @@ header {
 
 nav a #logo {
   font-weight: 700;
+  position: absolute;
+  width: 249px;
+  height: 46px;
+  left: 63.2px;
+  top: 39px;
+}
+
+.house-property {
+  position: absolute;
+  width: 537px;
+  height: 234px;
+  left: 66px;
+  top: 172px;
+
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+
+  color: #ffffff;
+}
+
+.desc-property {
+  color: white;
+  margin: 20px;
+  position: absolute;
+  left: 50px;
+  top: 420px;
+}
+
+.tentang-kami figure img {
+  position: relative;
+  left: 35%;
+  top: 30px;
+}
+
+.tentang-kami figure figcaption h2 {
+  position: relative;
+  width: 262px;
+  height: 200px;
+
+  /* text-align: center; */
+  left: 45%;
+  top: 75px;
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: black;
+}
+
+.tentang-kami figure figcaption p {
+  border-radius: 1em;
+}
+
+.fasilitas {
+  background-color: #f0f0f0;
+  position: static;
+  width: 100%;
+  height: 720px;
+  left: 0px;
+  top: 1469px;
 }
