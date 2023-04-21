@@ -108,15 +108,48 @@ nav a #logo {
   color: black;
 }
 
-.tentang-kami figure figcaption p {
-  border-radius: 1em;
+.tentang-kami figure figcaption {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+  left: 20px;
 }
 
-.fasilitas {
+#fasilitas {
   background-color: #f0f0f0;
-  position: static;
   width: 100%;
   height: 720px;
-  left: 0px;
-  top: 1469px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#fasilitas section {
+  margin: 20px;
+}
+
+.rumah1,
+.rumah2,
+.rumah3 {
+  width: 444px;
+  height: 645px;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+}
+
+.rumah1 {
+  background-image: url(../images/cluster-new_201119141110-133.jpg);
+}
+
+.rumah2 {
+  background-image: url(../images/53-desain-rumah-minimalis-modern-2.jpg);
+}
+
+.rumah3 {
+  background-image: url(../images/uploadImageReturn.jpg);
 }
