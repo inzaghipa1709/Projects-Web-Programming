@@ -123,23 +123,39 @@ nav a #logo {
   width: 100%;
   height: 720px;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  padding: 20px;
 }
 
 #fasilitas section {
   margin: 20px;
+  position: relative;
+  width: 30%;
+  height: 100%;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  margin: 0 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .rumah1,
 .rumah2,
 .rumah3 {
-  width: 444px;
-  height: 645px;
+  width: 30%;
+  height: 100%;
   border-radius: 20px;
-  background-size: cover;
-  background-position: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  margin: 0 10px;
+
+  /* new rules */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .rumah1 {
@@ -152,4 +168,94 @@ nav a #logo {
 
 .rumah3 {
   background-image: url(../images/uploadImageReturn.jpg);
+}
+
+.deskripsi {
+  position: sticky;
+  width: 401px;
+  height: 163px;
+  background: linear-gradient(
+    179.57deg,
+    #ffffff 0.37%,
+    rgba(255, 255, 255, 0.7) 0.37%,
+    rgba(255, 255, 255, 0.533943) 98.74%,
+    rgba(255, 255, 255, 0.533358) 98.75%
+  );
+  backdrop-filter: blur(2px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 20px;
+}
+
+.deskripsi h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.deskripsi p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.deskripsi1,
+.deskripsi2,
+.deskripsi3 {
+  position: sticky;
+
+  /* new rule */
+  align-self: center;
+
+  width: 401px;
+  height: 163px;
+  background: linear-gradient(
+    179.57deg,
+    #ffffff 0.37%,
+    rgba(255, 255, 255, 0.7) 0.37%,
+    rgba(255, 255, 255, 0.533943) 98.74%,
+    rgba(255, 255, 255, 0.533358) 98.75%
+  );
+  backdrop-filter: blur(2px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 20px;
+}
+
+.section1 .deskripsi1 {
+  top: 10%;
+}
+
+.section2 .deskripsi2 {
+  top: 20%;
+}
+
+.section3 .deskripsi3 {
+  top: 30%;
+}
+
+.galeri figure h2 {
+  position: relative;
+  width: 262px;
+  height: 200px;
+
+  /* text-align: center; */
+  left: 45%;
+  top: 75px;
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: black;
+}
+
+.galeri figure {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+  left: 20px;
 }
