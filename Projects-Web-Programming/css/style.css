@@ -259,3 +259,129 @@ nav a #logo {
   border-bottom: 1px solid #ccc;
   left: 20px;
 }
+
+#fasilitas-slider-1 .fasilitas-slide-container {
+  width: auto;
+  height: auto;
+}
+
+.fasilitas-slider {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.fasilitas-slide-container {
+  max-width: 100%;
+  display: inline-block;
+  position: relative;
+}
+
+.fasilitas-slides {
+  display: none;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: solid 1px #a0a0a0;
+}
+
+.fasilitas-slides img {
+  max-width: 100%;
+  max-height: 100%;
+  display: inline-block;
+}
+
+.fasilitas-slide-text {
+  color: #ffffff;
+  font-size: 14px;
+  padding: 3px 5px;
+  position: absolute;
+  bottom: 0;
+  border-radius: 5px;
+  left: 50%;
+  text-align: center;
+  text-shadow: 0 0 2px #000;
+  background-color: rgba(255, 255, 255, 0.3);
+  display: inline-block;
+  transform: translate(-50%, -5px);
+}
+
+#fasilitas-slide-prev,
+#fasilitas-slide-next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  text-decoration: none;
+  text-shadow: 1px 1px 5px #686868;
+}
+
+#fasilitas-slide-next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+#fasilitas-slide-prev {
+  left: 0;
+  border-radius: 0 3px 3px 0;
+}
+#fasilitas-slide-prev:hover,
+#fasilitas-slide-next:hover {
+  background-color: #000c;
+}
+
+.fasilitas-slide-dot-control {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.fasilitas-slide-dot {
+  cursor: pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.fasilitas-slide-dot.dot-active {
+  background-color: #717171;
+}
+
+.fasilitas-slide-number {
+  color: #ffffff;
+  font-size: 12px;
+  padding: 4px 7px;
+  position: absolute;
+  border-radius: 5px;
+  top: 5px;
+  left: 5px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+/************CSS Animation***********/
+
+.animated {
+  animation-name: fadeIn;
+  animation-duration: 1s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
