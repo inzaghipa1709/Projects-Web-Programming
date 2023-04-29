@@ -71,9 +71,6 @@
 
   const images = slider_id.querySelectorAll(".fasilitas-slides");
   const dots = slider_id.querySelectorAll(".fasilitas-slide-dot");
-  const prev_button = slider_id.querySelector("#fasilitas-slide-prev");
-  const next_button = slider_id.querySelector("#fasilitas-slide-next");
-
   const showSlides = () => {
     if (slide_index > images.length - 1) {
       slide_index = 0;
@@ -91,26 +88,6 @@
     }
   };
 
-  prev_button.addEventListener(
-    "click",
-    (event) => {
-      event.preventDefault();
-      slide_index--;
-      showSlides();
-    },
-    false
-  );
-
-  next_button.addEventListener(
-    "click",
-    (event) => {
-      event.preventDefault();
-      slide_index++;
-      showSlides();
-    },
-    false
-  );
-
   const dot_click = (event) => {
     event.preventDefault();
     slide_index = event.target.dataset.id;
@@ -120,4 +97,9 @@
   for (let i = 0; i < dots.length; i++) {
     dots[i].addEventListener("click", dot_click, false);
   }
+  // auto play
+  setInterval(() => {
+    slide_index++;
+    showSlides();
+  }, 10000);
 })();
