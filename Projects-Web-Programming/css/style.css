@@ -108,6 +108,27 @@ nav a #logo {
   color: black;
 }
 
+.tentang-kami figure figcaption p {
+  position: relative;
+  width: 100%;
+  left: 2em;
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 40px;
+
+  letter-spacing: 0.01em;
+  color: #000000;
+
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
 .tentang-kami figure figcaption {
   position: relative;
   width: 100%;
@@ -420,6 +441,12 @@ nav a #logo {
   padding: 20px;
 }
 
+.lokasi figure img {
+  position: relative;
+  left: 35%;
+  top: 30px;
+}
+
 .lokasi h2 {
   font-family: "DM Sans";
   font-style: normal;
@@ -429,6 +456,36 @@ nav a #logo {
   text-align: center;
   letter-spacing: 0.01em;
   color: black;
+}
+
+.lokasi p {
+  position: relative;
+  width: 100%;
+  left: 2em;
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 40px;
+
+  letter-spacing: 0.01em;
+  color: #000000;
+
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.lokasi time {
+}
+
+.lokasi .maps {
+  position: absolute;
+  top: 7016px;
+  height: 1590.63px;
 }
 
 .pricelist {
