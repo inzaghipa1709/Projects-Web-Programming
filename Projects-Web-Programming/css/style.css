@@ -5,12 +5,13 @@
 }
 
 body {
-  margin: 0;
+  margin: auto;
   padding: 0;
   font-size: 16px;
   font-family: Georgia, "Times New Roman", Times, serif;
   position: relative;
   background-color: #ffffff;
+  max-width: 1440px;
 }
 
 header {
@@ -225,9 +226,13 @@ nav a #logo {
 
   /* new rule */
   align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-  width: 401px;
-  height: 163px;
+  width: 90%;
+  height: 25%;
   background: linear-gradient(
     179.57deg,
     #ffffff 0.37%,
@@ -238,6 +243,7 @@ nav a #logo {
   backdrop-filter: blur(2px);
   /* Note: backdrop-filter has minimal browser support */
   border-radius: 20px;
+  margin-bottom: 10px;
 }
 
 .section1 .deskripsi1 {
