@@ -33,7 +33,11 @@
             <li><a href="#home">Home</a></li>
             <li><a href="#">Tentang Kami</a></li>
             <li><a href="#">Lokasi</a></li>
-            <li><a href="#">Fasilitas</a></li>
+            <li>
+              <a href="../Projects-Web-Programming/pages/fasilitas.html"
+                >Fasilitas</a
+              >
+            </li>
             <li><a href="#">Galeri</a></li>
             <li><a href="#">Hubungi Kami</a></li>
           </ul>
@@ -141,10 +145,12 @@
         <h2>GALERI</h2>
       </section>
       <section class="lokasi">
-        <figure>
-          <img src="images/myrealestate-logo.png" alt="MyRealEstate" />
+        <figure class="khusus-lokasi">
+          <h2>LOKASI</h2>
+          <div class="image">
+            <img src="images/myrealestate-logo.png" alt="MyRealEstate" />
+          </div>
           <figcaption>
-            <h2>LOKASI</h2>
             <br />
             <p>
               Salah satu kota baru publik yang dikembangkan oleh pemerintah
@@ -154,7 +160,46 @@
             </p>
           </figcaption>
         </figure>
-        <div class="time"></div>
+        <div class="time">
+          <div class="time-items">
+            <div class="wrapper">
+              <div class="circlehistory">
+                <i class="bi bi-clock-history"></i>
+              </div>
+              <strong class="time-title">20 Menit</strong>
+              <p class="time-description">dari Pintu</p>
+            </div>
+            <div class="wrapper">
+              <div class="circlehistory">
+                <i class="bi bi-clock-history"></i>
+              </div>
+              <strong class="time-title">15 Menit</strong>
+              <p class="time-description">ke Kawasan</p>
+            </div>
+            <div class="wrapper">
+              <div class="circlehistory">
+                <i class="bi bi-clock-history"></i>
+              </div>
+              <strong class="time-title">10 Menit</strong>
+              <p class="time-description">ke Mall</p>
+            </div>
+            <div class="wrapper">
+              <div class="circlehistory">
+                <i class="bi bi-clock-history"></i>
+              </div>
+              <strong class="time-title">10 Menit</strong>
+              <p class="time-description">ke Stasiun</p>
+            </div>
+            <div class="wrapper">
+              <div class="circlehistory">
+                <i class="bi bi-clock-history"></i>
+              </div>
+              <strong class="time-title">5 Menit</strong>
+              <p class="time-description">ke Pasar Modern</p>
+            </div>
+          </div>
+        </div>
+
         <div class="maps">
           <div class="gmap_canvas">
             <iframe
@@ -172,8 +217,8 @@
               .mapouter {
                 position: relative;
                 text-align: right;
-                height: 1020px;
-                width: 1540px;
+                height: 400px;
+                width: 600px;
               }
             </style>
             <a href="https://embedgooglemap.2yu.co">html embed google map</a>
@@ -181,8 +226,8 @@
               .gmap_canvas {
                 overflow: hidden;
                 background: none !important;
-                height: 1020px;
-                width: 1540px;
+                height: 400px;
+                width: 600px;
               }
             </style>
           </div>
@@ -202,7 +247,37 @@
         </figure>
       </section>
       <!-- Footer -->
-      <footer id="footer"></footer>
+      <footer id="footer">
+        <section class="logo">
+          <a href="#home" id="logo"
+            ><img src="images/myrealestate-logo.png" height="60px" alt="logo"
+          /></a>
+        </section>
+        <section class="menu">
+          <h2 class="title">Menu</h2>
+          <nav>
+            <ul>
+              <li><a href="#">Tentang Kami</a></li>
+              <li><a href="#">Lokasi</a></li>
+              <li>
+                <a href="../Projects-Web-Programming/pages/fasilitas.html"
+                  >Fasilitas</a
+                >
+              </li>
+              <li><a href="#">Galeri</a></li>
+              <li><a href="#">Hubungi Kami</a></li>
+            </ul>
+          </nav>
+        </section>
+        <section class="marketing">
+          <h2 class="title">Marketing Gallery</h2>
+          <p></p>
+        </section>
+        <section class="contact">
+          <h2 class="title">Hubungi Kami</h2>
+          <p>Dapatkan Pricelist dan Brosur, silahkan chat Whatsapp</p>
+        </section>
+      </footer>
     </div>
   </body>
 </html>
