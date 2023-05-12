@@ -511,22 +511,23 @@ nav a #logo {
   margin-inline-end: 0px;
 }
 
+.timeandmaps {
+  display: flex;
+  position: relative;
+  right: 0;
+}
+
 .time {
   display: flex;
   justify-content: left;
   align-items: center;
+  max-width: 400px;
 }
 
-.time-items {
-  /* display: flex; */
-  flex-direction: column;
-  align-items: center;
-  gap: 1em;
-}
-
-.wrapper {
+.time-items .wrapper {
   display: flex;
   align-items: center;
+  margin-bottom: 1em;
   gap: 1em;
 }
 
@@ -535,16 +536,15 @@ nav a #logo {
   justify-content: center;
   align-items: center;
   width: 50px;
-  /* height: 50px; */
   border-radius: 50%;
   background-color: #e4c0b4;
   margin-right: 20px;
 }
 
 .bi-clock-history {
-  width: 50px;
-  height: 50px;
-  background: url(../images/clock-history.svg) no-repeat;
+  width: 40px;
+  height: 40px;
+  background: url(../images/clock-history.svg) no-repeat center / contain;
 }
 
 .time-title {
@@ -553,7 +553,7 @@ nav a #logo {
 }
 
 .time-description {
-  font-size: 24px;
+  font-size: 21px;
   font-family: "DM Sans";
   color: rgba(0, 0, 0, 1);
 }
