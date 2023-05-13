@@ -11,7 +11,7 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
   position: relative;
   background-color: #ffffff;
-  max-width: 1440px;
+  max-width: 1680px;
 }
 
 dl {
@@ -641,19 +641,19 @@ nav a #logo {
   background: url(../images/whatsapp.svg) no-repeat center center / contain;
 }
 
-.baris3 {
-  display: flex;
-  background-color: #f0f0f0;
-  color: #fff;
+#footer {
+  background-color: #f5f5f5;
+  font-family: "DM Sans";
+  padding: 20px 50px;
 }
 
-#footer {
+#footer .footer-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 50px;
-  background-color: #f5f5f5;
-  font-family: "DM Sans";
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 #footer .logo {
@@ -661,15 +661,19 @@ nav a #logo {
 }
 
 #footer .menu {
-  flex: 2;
+  flex: 1;
 }
 
 #footer .marketing {
-  flex: 3;
+  flex: 1;
 }
 
 #footer .contact {
-  flex: 2;
+  flex: 1;
+}
+
+#footer .menu .marketing .contact {
+  align-self: auto;
 }
 
 #footer a {
@@ -682,8 +686,8 @@ nav a #logo {
 }
 
 #footer nav ul {
-  list-style: none;
   padding-left: 0;
+  color: #e4c0b4;
 }
 
 #footer nav li {
@@ -693,4 +697,17 @@ nav a #logo {
 #footer p {
   margin-top: 0;
   margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  #footer .footer-container {
+    flex-direction: column;
+  }
+
+  #footer .logo,
+  #footer .menu,
+  #footer .marketing,
+  #footer .contact {
+    flex: 1 1 100%;
+  }
 }
