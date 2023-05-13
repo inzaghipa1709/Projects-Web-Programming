@@ -558,7 +558,22 @@ nav a #logo {
   color: rgba(0, 0, 0, 1);
 }
 
-.lokasi .maps {
+.maps {
+  float: right;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 400px;
+  width: 600px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  max-height: 500px;
+  max-width: 1000px;
 }
 
 .pricelist {
