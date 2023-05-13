@@ -1,0 +1,198 @@
+<div class="container">
+  <?php
+    $page_title = "MyRealEstate";
+    include('./layouts/header.php');
+  ?>
+  <!-- Section -->
+  <section class="main-house">
+    <div class="container">
+      <div class="perumahan"></div>
+      <img
+        src="images/perumahan-martinez.jpg"
+        alt="Property House"
+        style="width: 100%"
+      />
+      <div class="desc-property">
+        Miliki Perumahan Anda dengan kawasan yang minimalis, terjangkau, dan
+        murah.
+      </div>
+      <div class="house-property">Welcome to our House Property!</div>
+    </div>
+  </section>
+  <section class="tentang-kami">
+    <figure>
+      <img src="images/myrealestate-logo.png" alt="MyRealEstate" />
+      <figcaption>
+        <h2>TENTANG KAMI</h2>
+        <br />
+        <p>
+          MyRealEstate adalah perusahaan properti dibawah naungan PT.
+          Konstruksi Jaya Abadi yang telah berpengalaman untuk Anda tempati.
+          <br />
+          <br />
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+          non magna ut justo fermentum aliquet. Cras eu hendrerit eros.
+          Integer cursus sed neque a rhoncus. Curabitur urna lectus, euismod
+          vel risus nec, cursus placerat justo. Mauris vitae tortor ut
+          ligula sagittis ornare. Aliquam ultrices rhoncus metus.
+        </p>
+      </figcaption>
+    </figure>
+  </section>
+  <div id="fasilitas">
+    <section class="rumah1">
+      <div class="deskripsi1">
+        <h3>Lilly House</h3>
+        <p>
+          Ukuran/Luas : 5 x 12 meter (60 m2)
+          <br />
+          3 kamar tidur & 1 kamar mandi
+        </p>
+      </div>
+    </section>
+    <section class="rumah2">
+      <div class="deskripsi2">
+        <h3>Spring House</h3>
+        <p>
+          Ukuran/Luas : 6 x 15 meter (90 m2)
+          <br />
+          4 kamar tidur & 2 kamar mandi
+        </p>
+      </div>
+    </section>
+    <section class="rumah3">
+      <div class="deskripsi3">
+        <h3>Lavender House</h3>
+        <p>
+          Ukuran/Luas : 7 x 20 meter (140 m2)
+          <br />
+          4 kamar tidur & 2 kamar mandi
+        </p>
+      </div>
+    </section>
+  </div>
+  <section class="fasilitas">
+    <figure>
+      <h2>FASILITAS</h2>
+      <p>
+        Banyak sekali model-model perumahan yang elit dan modern. Kami telah
+        memfasilitasi beberapa area seperti taman bermain, kolam renang,
+        tempat fitness/senam, jogging track, tanaman dan pepohonan hijau,
+        dan beberapa fasilitas lainnya.
+      </p>
+    </figure>
+    <div id="fasilitas-slider-1" class="fasilitas-slider">
+      <div class="fasilitas-slide-container">
+        <div class="fasilitas-slider-body">
+          <a class="fasilitas-slides animated" style="display: flex">
+            <span class="fasilitas-slide-number">1/5</span>
+            <img src="images/taman-bermain.jpg" alt="image 1" />
+            <span class="fasilitas-slide-text">image 1</span>
+          </a>
+        </div>
+        <a href="#" id="fasilitas-slide-prev">
+          <i class="bi bi-arrow-left-circle"></i>
+        </a>
+        <a href="#" id="fasilitas-slide-next">
+          <i class="bi bi-arrow-right-circle"></i>
+        </a>
+      </div>
+      <div class="fasilitas-slide-dot-control"></div>
+    </div>
+    <script src="js/Slideshow.js"></script>
+  </section>
+  <section class="galeri">
+    <h2>GALERI</h2>
+  </section>
+  <section class="lokasi">
+    <figure class="khusus-lokasi">
+      <h2>LOKASI</h2>
+      <div class="image">
+        <img src="images/myrealestate-logo.png" alt="MyRealEstate" />
+      </div>
+      <figcaption>
+        <br />
+        <p>
+          Salah satu kota baru publik yang dikembangkan oleh pemerintah
+          Indonesia. Konektivitas Cikarang dengan kawasan lain pun makin
+          membaik dengan dibangunnya sejumlah infrastruktur baru seperti
+          jalan tol, stasiun KRL, pelabuhan laut dan lain-lain.
+        </p>
+      </figcaption>
+    </figure>
+    <div class="timeandmaps">
+      <div class="time">
+        <div class="time-items">
+          <div class="wrapper">
+            <div class="circlehistory">
+              <i class="bi bi-clock-history"></i>
+            </div>
+            <strong class="time-title">20 Menit</strong>
+            <p class="time-description">dari Pintu</p>
+          </div>
+          <div class="wrapper">
+            <div class="circlehistory">
+              <i class="bi bi-clock-history"></i>
+            </div>
+            <strong class="time-title">15 Menit</strong>
+            <p class="time-description">ke Kawasan</p>
+          </div>
+          <div class="wrapper">
+            <div class="circlehistory">
+              <i class="bi bi-clock-history"></i>
+            </div>
+            <strong class="time-title">10 Menit</strong>
+            <p class="time-description">ke Mall</p>
+          </div>
+          <div class="wrapper">
+            <div class="circlehistory">
+              <i class="bi bi-clock-history"></i>
+            </div>
+            <strong class="time-title">10 Menit</strong>
+            <p class="time-description">ke Stasiun</p>
+          </div>
+          <div class="wrapper">
+            <div class="circlehistory">
+              <i class="bi bi-clock-history"></i>
+            </div>
+            <strong class="time-title">5 Menit</strong>
+            <p class="time-description">ke Pasar Modern</p>
+          </div>
+        </div>
+      </div>
+      <div class="maps">
+        <div class="gmap_canvas">
+          <iframe
+            width="1540"
+            height="1020"
+            id="gmap_canvas"
+            src="https://maps.google.com/maps?q=Medang, Kec. Pagedangan, Kabupaten Tangerang, Banten&t=&z=14&ie=UTF8&iwloc=&output=embed"
+            frameborder="0"
+            scrolling="no"
+            marginheight="0"
+            marginwidth="0"
+          ></iframe
+          ><a href="https://2yu.co">2yu</a><br />
+          <a href="https://embedgooglemap.2yu.co">html embed google map</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="pricelist">
+    <figure>
+      <section class="persegi">
+        <img src="images/perumahan-martinez.jpg" alt="Property House" />
+        <figcaption>
+          <h1>Dapatkan Pricelist dan Brosur</h1>
+          <div class="wa-chat">
+            <p>Chat WhatsApp</p>
+          </div>
+        </figcaption>
+      </section>
+    </figure>
+  </section>
+  <hr />
+  <?php
+    include('./layouts/footer.php');
+  ?>
+</div>
