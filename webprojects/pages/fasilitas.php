@@ -1,4 +1,5 @@
 <?php
+  $page_title = "Fasilitas perumahan di MyRealEstate";
   include('../layouts/header.php');
 ?>
   <main>

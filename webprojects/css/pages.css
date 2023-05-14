@@ -1,0 +1,26 @@
+.house-property {
+  position: absolute;
+  width: 537px;
+  height: 234px;
+  left: 66px;
+  top: 172px;
+
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+
+  color: #ffffff;
+}
+
+.desc-property {
+  color: white;
+  margin: 20px;
+  position: absolute;
+  left: 50px;
+  top: 420px;
+}
+
+.hero {
+}

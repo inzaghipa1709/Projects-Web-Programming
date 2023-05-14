@@ -8,7 +8,7 @@
     <div class="container">
       <div class="perumahan"></div>
       <img
-        src="images/perumahan-martinez.jpg"
+        src="../images/perumahan-martinez.jpg"
         alt="Property House"
         style="width: 100%"
       />

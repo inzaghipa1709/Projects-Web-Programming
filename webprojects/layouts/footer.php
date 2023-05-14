@@ -12,14 +12,14 @@
         <div class="footer-container">
           <div class="logo">
             <a href="#home" id="logo"
-              ><img src="images/myrealestate-logo.png" height="60px" alt="logo"
+              ><img src="../images/myrealestate-logo.png" height="60px" alt="logo"
             /></a>
           </div>
           <div class="menu">
             <h2 class="title">Menu</h2>
             <nav>
               <ul>
-                <li><a href="#">Tentang Kami</a></li>
+                <li><a href="../pages/about.php">Tentang Kami</a></li>
                 <li><a href="#">Lokasi</a></li>
                 <li>
                   <a href="../pages/fasilitas.php"

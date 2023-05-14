@@ -26,11 +26,11 @@
     <header id="header">
       <nav>
         <a href="#home" id="logo"
-          ><img src="images/myrealestate-logo.png" height="30px" alt="logo"
+          ><img src="../images/myrealestate-logo.png" height="30px" alt="logo"
         /></a>
         <ul>
           <li><a href="#home">Home</a></li>
-          <li><a href="#">Tentang Kami</a></li>
+          <li><a href="../pages/about.php">Tentang Kami</a></li>
           <li><a href="#">Lokasi</a></li>
           <li>
             <a href="../pages/fasilitas.php"
