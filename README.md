@@ -9,5 +9,5 @@ Kelompok kami terdiri dari 3 orang yaitu :
 
 Project ini dibuat menggunakan HTML, CSS, dan sedikit JavaScript sebagai Frontend, dan PHP untuk Backend, dan MySQL sebagai Database.
 
-##Keterangan
+## Keterangan
 Pindah ke sini : https://github.com/RyanChristensen24/project-web/tree/main
